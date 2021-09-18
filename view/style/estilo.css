@@ -1,0 +1,69 @@
+/* Estilo de la pagina de Inicio */
+*{
+    margin:0px;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.header-section{
+background-color:   #f1b548 ;
+}
+/* posisionar logo */
+.site-logo{
+    position: relative;
+    top:6px;
+    left:10px;
+}
+.img-logo{
+    height: auto;
+    width: auto;
+    max-width:20rem;
+    max-height:20rem;
+}
+/* posision de barra de menú y buscador */
+.site-menu-busqueda{
+    position: relative;
+    margin-top:-68px;
+    margin-left:26rem;
+}
+/* caracteristicas del buscador */
+.input{
+    width: 8em;
+    font-size: 29px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:10px;
+    margin-right:10px;
+}
+/* caracteristicas y modificaciones al menú */
+.site-ul li{
+  padding: 5px;
+    float: left;
+    list-style: none;
+    margin-left:10px;
+    margin-right:10px;
+}
+.site-ul li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* Codigos de paleta de colores  */
+/* .color1 {color: #3d1818;}
+.color2 {color: #5f2d22;}
+.color3 {color: #894d2d;}
+.color4 {color: #bb7939;}
+.color5 {color: #f1b548;} */
