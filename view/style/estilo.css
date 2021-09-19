@@ -67,9 +67,20 @@ Imagen Licor Oferta 1 */
 
 .img-licoroferta1{
     height: 250px;
-    width: 1325px;
+    width: 1320px;
     border-radius: 20px;
+    -webkit-transition: .5s linear;
+  transition: .5s linear;
     
+}
+
+.img-licoroferta1:hover{
+    
+    
+    -webkit-box-shadow: 0px 20px 14px 2px rgb(241, 181, 72);
+    box-shadow: 0px 20px 14px 2px rgb(241, 181, 72);
+    
+
 }
 
 /* Imagen Licor Oferta 2 */
@@ -77,14 +88,27 @@ Imagen Licor Oferta 1 */
 .site-oferta2-img{
     float: left;
     margin-top: 90px;
-    margin-left: 85px;
+    margin-left: 155px;
     margin-right:70px;
 }
 
 .img-licoroferta2{
-    height: 450px;
-    width: 550px;
+    height: 380px;
+    width: 480px;
     border-radius: 20px;
+    -webkit-transition: .5s linear;
+  transition: .5s linear;
+  
+}
+
+.img-licoroferta2:hover{
+    
+    filter:saturate(100%);
+    -webkit-box-shadow: -15px 15px 24px 2px rgb(241, 181, 72);
+    box-shadow: -15px 15px 24px 2px rgb(241, 181, 72);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+
 }
 
 /* Imagen Licor Oferta 3 */
@@ -97,11 +121,26 @@ Imagen Licor Oferta 1 */
 }
 
 .img-licoroferta3{
-    height: 450px;
-    width: 550px;
+    height: 380px;
+    width: 480px;
     border-radius: 20px;
+    -webkit-transition: .5s linear;
+    transition: .5s linear;
+    
+}
+.img-licoroferta3:hover{
+    
+    filter:saturate(200%);
+    -webkit-box-shadow: 15px 15px 24px 2px rgb(241, 181, 72);
+    box-shadow: 15px 15px 24px 2px rgb(241, 181, 72);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
 
 }
+
+
+	
+
 
 .text-new{
     margin-top: 35px;
