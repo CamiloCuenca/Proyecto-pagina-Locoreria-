@@ -1,0 +1,86 @@
+/* Estilo de la pagina de Inicio */
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*  */
+
+.img-logo{
+    width:auto;
+    height: auto;
+    max-width:20rem;
+    max-height: 18rem;
+    
+}
+
+
+.mediosP-logo{
+    background-color: #f1b548;
+    
+}
+
+.Inicio{
+    position: relative;
+    top:-4rem;
+    margin-left:29rem;
+    font-size: x-large;
+}
+
+.Inicio a{
+    margin-left:1rem;
+    text-decoration: none;
+}
+
+.site-pagos img{
+    position: relative;
+    margin-left:10rem;
+ 
+   
+}
+
+
+
+.paypal-logo{
+    width:auto;
+    height: auto;
+    max-width:10rem;
+    max-height: 10pxs;
+}
+
+.nequi-logo{
+    position: relative;
+    top: 2rem;
+    width:auto;
+    height: auto;
+    max-width:15rem;
+    max-height: 10pxs;
+}
+
+.diviplata-logo{
+    position: relative;
+    top: -1rem;
+    width:auto;
+    height: auto;
+    max-width:19rem;
+    max-height: 10pxs;
+}
+
+
+
+.links{
+    position: relative;
+    top: 1rem;
+    margin-left:1rem;
+   
+}
+
+.links a {
+    margin-left:15rem;
+    margin-right:4rem;
+    text-decoration:none;
+}
+
