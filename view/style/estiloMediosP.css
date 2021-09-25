@@ -1,48 +1,72 @@
 /* Estilo de la pagina de Inicio */
+/* Estilo de la pagina de Inicio */
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 /*  */
-
+.header-section{
+background-color:   #f1b548 ;
+}
+/* posisionar logo */
+.site-logo{
+    position: relative;
+    top:6px;
+    left:10px;
+}
 .img-logo{
-    width:auto;
     height: auto;
+    width: auto;
     max-width:20rem;
-    max-height: 18rem;
-    
+    max-height:20rem;
 }
-
-
-.mediosP-logo{
-    background-color: #f1b548;
-    
-}
-
-.Inicio{
+/* posision de barra de menú y buscador */
+.site-menu-busqueda{
     position: relative;
-    top:-4rem;
-    margin-left:29rem;
-    font-size: x-large;
+    margin-top:-68px;
+    margin-left:26rem;
 }
-
-.Inicio a{
+.site-menu-busqueda a{
     margin-left:1rem;
+    text-decoration: none; 
+}
+/* caracteristicas del buscador */
+.input{
+    width: 8;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:10px;
+    margin-right:10px;
+}
+/* caracteristicas y modificaciones al menú */
+.site-ul li{
+  padding: 5px;
+    float: left;
+    list-style: none;
+    margin-left:10px;
+    margin-right:10px;
+}
+.site-ul li a{
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
 }
 
-.site-pagos img{
+/* Logos Medios de pago */
+
+.site-pagos{
     position: relative;
-    margin-left:10rem;
- 
-   
+    margin-top:2rem;
+    margin-left:12rem;
+
 }
-
-
 
 .paypal-logo{
     width:auto;
@@ -54,6 +78,7 @@ body{
 .nequi-logo{
     position: relative;
     top: 2rem;
+    margin-left:5rem;
     width:auto;
     height: auto;
     max-width:15rem;
@@ -62,19 +87,18 @@ body{
 
 .diviplata-logo{
     position: relative;
-    top: -1rem;
+    margin-left:5rem;
     width:auto;
     height: auto;
     max-width:19rem;
     max-height: 10pxs;
 }
-
-
-
+/* Links Medios Pagos */
 .links{
     position: relative;
     top: 1rem;
     margin-left:1rem;
+    
    
 }
 
