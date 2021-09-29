@@ -32,10 +32,7 @@ background-color:   #f1b548 ;
     margin-top:-68px;
     margin-left:26rem;
 }
-.site-menu-busqueda a{
-    margin-left:1rem;
-    text-decoration: none; 
-}
+
 /* caracteristicas del buscador */
 .input{
     width: 8;
@@ -61,50 +58,47 @@ background-color:   #f1b548 ;
 
 /* Logos Medios de pago */
 
-.site-pagos{
+
+.h1-titulo{
     position: relative;
-    margin-top:2rem;
-    margin-left:12rem;
-
+    margin-top:3rem;
+    margin-left:35rem;
 }
 
-.paypal-logo{
-    width:auto;
-    height: auto;
-    max-width:10rem;
-    max-height: 10pxs;
+.site-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conte{
+    display: flex;
+    height: 30%;
+    width: 30%;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .num1 .img1{
+    height: 19rem;
+    width: 15rem;
+}
+.conte .num1 .img2{
+    height: 20rem;
+    width: 23rem;
+}
+.conte .num1 .img3{
+    height: 20rem;
+    width: 23rem;
 }
 
-.nequi-logo{
-    position: relative;
-    top: 2rem;
-    margin-left:5rem;
-    width:auto;
-    height: auto;
-    max-width:15rem;
-    max-height: 10pxs;
-}
 
-.diviplata-logo{
-    position: relative;
-    margin-left:5rem;
-    width:auto;
-    height: auto;
-    max-width:19rem;
-    max-height: 10pxs;
-}
-/* Links Medios Pagos */
-.links{
-    position: relative;
-    top: 1rem;
-    margin-left:1rem;
-    
-   
-}
-
-.links a {
-    margin-left:15rem;
-    margin-right:4rem;
-    text-decoration:none;
-}
 
