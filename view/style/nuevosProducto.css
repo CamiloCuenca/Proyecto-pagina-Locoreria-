@@ -152,7 +152,7 @@ background-color:   #f1b548 ;
     text-decoration: none;
     padding: 10px;
     background: #fff;
-    color: #2b6ebb;
+    color: #f1b548;
     width: 50%;
     margin: auto;
     border-radius: 20px;
@@ -160,7 +160,7 @@ background-color:   #f1b548 ;
     transition: .2s;
 }
 .post-body.imagen-link:hover{
-    background: #3378c7;
+    background: #f1b548;
     box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .2);
     transform: translateY(-2px);
 }
