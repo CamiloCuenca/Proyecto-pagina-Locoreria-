@@ -2,6 +2,7 @@ import express from 'express';
 import morgan from 'morgan'; 
 import cors from 'cors'; 
 import path from 'path';
+import $ from "jquery";
 
 const app=express();
 
@@ -10,7 +11,7 @@ const mongoose = require('mongoose');
 
 const uri='mongodb+srv://JuanCamilo:camilojc123@crud01.cwwas.mongodb.net/test';
 
-const options = {useNewUrlParser: true,  useUnifiedTopology: true};
+const options = {useNewUrlParser: true,  useUnifiedTopology: true ,};
 
 mongoose.connect(uri, options).then(
     () => { console.log('Conectado a DB') },
@@ -36,7 +37,7 @@ app.use('/api', require('./routes/nota'));
 
 const history = require('connect-history-api-fallback'); 
 app.use(history()); 
-app.use(express.static(path.join(__dirname, 'public/view/src/html')));
+app.use(express.static(path.join(__dirname, 'public/')));
 
 //Puerto
 

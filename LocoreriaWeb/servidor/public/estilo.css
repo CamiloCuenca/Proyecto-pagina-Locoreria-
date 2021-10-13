@@ -1,0 +1,430 @@
+/* Estilo de la pagina de Inicio */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*  */
+.header-section{
+background-color:   #f1b548 ;
+}
+/* posisionar logo */
+.site-logo{
+    position: relative;
+    top:6px;
+    left:10px;
+}
+.img-logo{
+    height: auto;
+    width: auto;
+    max-width:20rem;
+    max-height:20rem;
+}
+/* posision de barra de menú y buscador */
+.site-menu-busqueda{
+    position: relative;
+    margin-top:-68px;
+    margin-left:26rem;
+}
+/* caracteristicas del buscador */
+.input{
+    width: 8;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:10px;
+    margin-right:10px;
+}
+/* caracteristicas y modificaciones al menú */
+.site-ul li{
+  padding: 5px;
+    float: left;
+    list-style: none;
+    margin-left:10px;
+    margin-right:10px;
+}
+.site-ul li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+
+/* Estilo Cuerpo
+
+Imagen Licor Oferta 1 */
+
+.site-oferta1-img{
+    position: relative;
+    top: 50px;
+    margin-left:15px;
+    margin-right:10px;
+}
+
+.img-licoroferta1{
+    height: 250px;
+    width: 1320px;
+    border-radius: 20px;
+    -webkit-transition: .5s linear;
+  transition: .5s linear;
+    
+}
+
+.img-licoroferta1:hover{
+    
+    
+    -webkit-box-shadow: 0px 20px 14px 2px rgb(241, 181, 72);
+    box-shadow: 0px 20px 14px 2px rgb(241, 181, 72);
+    
+
+}
+
+/* Imagen Licor Oferta 2 */
+
+.site-oferta2-img{
+    float: left;
+    margin-top: 90px;
+    margin-left: 155px;
+    margin-right:70px;
+}
+
+.img-licoroferta2{
+    height: 380px;
+    width: 480px;
+    border-radius: 20px;
+    -webkit-transition: .5s linear;
+  transition: .5s linear;
+  
+}
+
+.img-licoroferta2:hover{
+    
+    filter:saturate(100%);
+    -webkit-box-shadow: -15px 15px 24px 2px rgb(241, 181, 72);
+    box-shadow: -15px 15px 24px 2px rgb(241, 181, 72);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+
+}
+
+/* Imagen Licor Oferta 3 */
+
+
+.site-oferta3-img{
+    
+    margin-top: 90px;
+    
+}
+
+.img-licoroferta3{
+    height: 380px;
+    width: 480px;
+    border-radius: 20px;
+    -webkit-transition: .5s linear;
+    transition: .5s linear;
+    
+}
+.img-licoroferta3:hover{
+    
+    filter:saturate(200%);
+    -webkit-box-shadow: 15px 15px 24px 2px rgb(241, 181, 72);
+    box-shadow: 15px 15px 24px 2px rgb(241, 181, 72);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+
+}
+
+
+/* Inicio del muestra de produtos*/
+.site-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conte{
+    height: 510px;
+    width: 25%;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 25%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .num1 img{
+    height: 19rem;
+    width: 15rem;
+}
+
+
+.conte .num1{
+     background-color: #111;
+}
+
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+.precio {
+    height:50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+ .precio1{
+    color: red;
+    font-size: .8em;
+}
+.precio .precio2{
+    font-size: 1.5em;
+}
+.shoping{
+    font-size: 1.5em;
+    color: #555;
+}
+
+@media (max-width:320px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+@media (max-width:600px)
+{
+    .conte{
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:700px)
+{
+    .conte{
+        width: 80%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:900px)
+{
+    .conte{
+        width: 40%;
+        margin: 30px 20px;
+    }
+}
+
+
+
+
+
+
+.footer-distributed{
+	background: #00658f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+    height: 280px;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 35px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #000000;
+	color: #ffffff;
+	font-size: 20px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  rgb(76, 219, 212);
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #a0a7ad;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	cursor: pointer;
+	background-color:  #000000;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.img-facebook{
+    margin-top: 4px;
+    width: 30px;
+    height: 30px;
+}
+
+.img-twitter{
+    margin-top: 4px;
+    width: 45px;
+    height: 30px;
+}
+
+.img-linkedin{
+    margin-top: 4px;
+    width: 30px;
+    height: 30px;
+}
+
+.img-github{
+    margin-top: 4px;
+    width: 45px;
+    height: 30px;
+}
+
+ /*Codigos de paleta de colores  */
+/* .color1 {color: #3d1818;}
+.color2 {color: #5f2d22;}
+.color3 {color: #894d2d;}
+.color4 {color: #bb7939;}
+.color5 {color: #f1b548;} */
