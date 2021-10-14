@@ -2,12 +2,12 @@ import express from 'express';
 import morgan from 'morgan'; 
 import cors from 'cors'; 
 import path from 'path';
-import $ from "jquery";
+
 
 const app=express();
 
 const mongoose = require('mongoose'); 
-//const uri = 'mongodb://localhost:27017/myappprueba';
+
 
 const uri='mongodb+srv://JuanCamilo:camilojc123@crud01.cwwas.mongodb.net/test';
 
@@ -21,18 +21,11 @@ mongoose.connect(uri, options).then(
 //middleware
 app.use(morgan('tiny'));
 app.use(cors());
-app.use(express.json()); 
+app.use(express.json());
+
 //application/x-www-form-urlencoded 
 app.use(express.urlencoded({ extended: true }))
-//app.use(express.static(path.join(__dirname, 'public')));
 
-//configurar las rutas
-
-// app.get('/', function (req,res){
-
-//     res.send('Hola mundo');
-
-// });
 app.use('/api', require('./routes/nota'));
 
 const history = require('connect-history-api-fallback'); 
