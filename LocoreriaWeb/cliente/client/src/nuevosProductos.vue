@@ -16,7 +16,7 @@
                   <h2>CASTILLO YGAY</h2>
                   <p class="descripcion">referente del vino de calidad,con reconocimiento a nivel mundial, representa la solidez de un camino iniciado en 1852 y  mantenido en la actualidad. Parte de su grandeza reside en el hecho de que 
                     solamente se elabora en añadas consideradas excepcionales.</p>
-                      <a href="#" class="imagen-link">Lo quiero...</a>
+                      
               </div>    
             </div>
         </div>  
@@ -34,7 +34,7 @@
                   <h2>GINEBRA</h2>
                   <p class="descripcion">Sloe es una ginebra dry gin elaborada mediante la maceración de alcohol de grano con botánicos seleccionados y redestilación en alambiques coffey de doble columna. Para un cuidado exquisito de los procesos de elaboración, 
                       las producciones que se llevan a cabo son elaboraciones cortas.</p>
-                      <a href="#" class="imagen-link">Lo quiero...</a>
+                      
               </div>    
             </div>
         </div>
@@ -53,7 +53,6 @@
                   <h2>Absolut Nueva Orleans</h2>
                   <p class="descripcion">Absolut New Orleans fue la primera de nuestra serie de edición limitada "Cities", celebrando el famoso ambiente de carnaval de una de las ciudades más vibrantes de los Estados Unidos. Como marca conocida por promover un 
                       espíritu de independencia, tenía sentido comenzar aquí.</p>
-                      <a href="#" class="imagen-link">Lo quiero...</a>
               </div>    
             </div>
         </div>
