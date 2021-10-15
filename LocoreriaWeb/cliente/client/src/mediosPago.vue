@@ -69,7 +69,7 @@ body{
 .h1-titulo{
     position: relative;
     margin-top:3rem;
-    margin-left:35rem;
+    margin-left:3rem;
 }
 
 .site-body{

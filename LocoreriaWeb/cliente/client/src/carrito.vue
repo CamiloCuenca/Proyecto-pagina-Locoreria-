@@ -22,7 +22,7 @@
     </header>
     <!-- START SECTION STORE -->
     <section class="store">
-        <div class="container">
+        <div class="container mt-3">
             <div class="items">
             </div>
         </div>
